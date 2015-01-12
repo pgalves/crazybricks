@@ -102,11 +102,11 @@ QWidget* MainWindow::newGame(){
 
     game->initializeLifeCounters();
 
-    scoreLayout->addWidget(createLabel(tr("Lifes:")), 0, 0);
+    scoreLayout->addWidget(createLabel(tr("Lives:")), 0, 0);
     scoreLayout->addWidget(lifesTopGamer, 1, 0);
     scoreLayout->addWidget(createLabel(tr("Score:")), 2, 0);
     scoreLayout->addWidget(scoreTopGamer, 3, 0);
-    scoreLayout->addWidget(createLabel(tr("Lifes:")), 4, 0);
+    scoreLayout->addWidget(createLabel(tr("Lives:")), 4, 0);
     scoreLayout->addWidget(lifesBottomGamer, 5, 0);
     scoreLayout->addWidget(createLabel(tr("Score:")), 6, 0);
     scoreLayout->addWidget(scoreBottomGamer, 7, 0);
